@@ -1,2 +1,3 @@
 def reverse(input=''):
-    return input[::-1]
+    res = input[::-1]
+    return res
