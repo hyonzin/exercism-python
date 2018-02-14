@@ -1,2 +1,2 @@
-def reverse(str=''):
-    return str[::-1]
+def reverse(sentence=''):
+    return sentence[::-1]
