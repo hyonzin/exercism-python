@@ -5,7 +5,7 @@ def hey(phrase):
     is_yelling = False
     is_addressing_without_saying = False
     answer = ''
-    phrase = re.sub(r'[\n\r\t]','',phrase.strip())
+    phrase = re.sub(r'[\s]','',phrase.strip())
 
     if phrase.isupper():
         is_yelling = True
